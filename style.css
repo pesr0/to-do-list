@@ -12,7 +12,6 @@ header {
 
 nav {
     display: flex;
-    background: rgba(128, 0, 128, 0.5);
 }
 
 .botao {
@@ -25,6 +24,7 @@ nav {
     cursor: pointer;
     transition: 1s all;
     width: 35px;
+    border-radius: 10px;
 }
 
 .botao-m {

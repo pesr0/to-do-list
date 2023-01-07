@@ -8,7 +8,7 @@ header {
     text-align: center;
     font-size: 5vh;
     padding: 2vh 0 0;
-    height: 10vh;
+    height: 11vh;
     box-sizing: border-box;
 }
 
@@ -38,7 +38,10 @@ nav {
 }
 
 main {
-    height: 86vh;
+    box-sizing: border-box;
+    height: 85vh;
+    display: flex;
+    background: lightgrey;
 }
 
 footer {

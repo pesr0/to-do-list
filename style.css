@@ -1,0 +1,17 @@
+body {
+    font-family: 'Dosis', sans-serif;
+}
+
+header {
+    background: rgba(128, 0, 128, 0.5);
+    color: black;
+    text-align: center;
+    font-size: 5vh;
+    padding: 2vh;
+}
+
+footer {
+    background: rgba(128, 0, 128, 0.3);
+    color: black;
+    text-align: center;
+}

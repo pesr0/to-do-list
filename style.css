@@ -8,6 +8,8 @@ header {
     text-align: center;
     font-size: 5vh;
     padding: 2vh 0 0;
+    height: 10vh;
+    box-sizing: border-box;
 }
 
 nav {
@@ -35,12 +37,18 @@ nav {
     background: rgba(128, 128, 128, 0.5);
 }
 
+main {
+    height: 86vh;
+}
+
 footer {
     background: rgba(128, 0, 128, 0.3);
     color: black;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 4vh;
+    box-sizing: border-box;
 }
 
 .item-pe {

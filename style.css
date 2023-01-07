@@ -7,7 +7,32 @@ header {
     color: black;
     text-align: center;
     font-size: 5vh;
-    padding: 2vh;
+    padding: 2vh 0 0;
+}
+
+nav {
+    display: flex;
+    background: rgba(128, 0, 128, 0.5);
+}
+
+.botao {
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    background: none;
+    margin: 0 0.5vw;
+    cursor: pointer;
+    transition: 1s all;
+    width: 2vw;
+}
+
+.botao-m {
+    margin: 0 0 0 2vw;
+}
+
+.botao:hover {
+    background: rgba(128, 128, 128, 0.5);
 }
 
 footer {

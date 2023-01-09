@@ -41,6 +41,8 @@ main {
     box-sizing: border-box;
     height: 85vh;
     display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
     background: lightgrey;
 }
 

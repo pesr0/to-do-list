@@ -16,7 +16,7 @@ nav {
     display: flex;
 }
 
-.botao {
+.bot {
     font-family: 'Dosis', sans-serif;
     font-size: 20px;
     font-weight: bold;
@@ -29,11 +29,11 @@ nav {
     border-radius: 10px;
 }
 
-.botao-m {
+.button-m {
     margin: 0 0 0 2vw;
 }
 
-.botao:hover {
+.bot:hover {
     background: rgba(128, 128, 128, 0.5);
 }
 
@@ -45,7 +45,7 @@ main {
     overflow: auto;
 }
 
-.caixa {
+.box {
     border: 1px solid black;
     box-Sizing: border-box;
     margin: 0.9%;
@@ -53,28 +53,28 @@ main {
     border-radius: 5px;
     width: 267px;
     height: 45%;
+    overflow: auto;
 }
 
-.input_texto {
+.input_title {
+    text-align: center;
+    font-size: 15px;
+}
+
+.input_text {
+    font-family: 'Dosis', sans-serif;
     border: none;
     border-bottom: 1px solid rgba(123, 123, 123, 0.566);
     background: none;
     border-radius: 5px;
     width: 75%;
     transition: all 0.5s;
-    margin: 0.5%;
+    margin: 1%;
 
 }
 
-.input_texto:focus {
+.input_text:focus {
     background: rgba(200, 150, 200, 0.7);
-}
-
-
-.lista {
-    font-family: 'Dosis', sans-serif;
-    display: block;
-
 }
 
 footer {
@@ -87,6 +87,6 @@ footer {
     box-sizing: border-box;
 }
 
-.item-pe {
+.item-feet {
     margin: 0.5vw;
 }

@@ -60,9 +60,9 @@ main {
     border-bottom: 1px solid rgba(123, 123, 123, 0.566);
     background: none;
     border-radius: 5px;
-    margin: 0.5vh;
     width: 75%;
-    transition: all 1s;
+    transition: all 0.5s;
+    margin: 0.5%;
 
 }
 

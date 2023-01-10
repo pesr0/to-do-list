@@ -56,9 +56,18 @@ main {
     overflow: auto;
 }
 
-.input_title {
+.list_fItem {
     text-align: center;
-    font-size: 15px;
+}
+
+.list_item{
+    display: flex;
+}
+
+.input_title{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .input_text {
@@ -75,6 +84,11 @@ main {
 
 .input_text:focus {
     background: rgba(200, 150, 200, 0.7);
+}
+
+.check {
+    margin: 0 10%;
+    width: 7%;
 }
 
 footer {

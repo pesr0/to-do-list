@@ -67,7 +67,7 @@ function add_main (){
                             
                             //detect if the checkbox is marked, if it is the text in the input get a "line-through" decoration, if its not, none decoration
                             function chk_detect(){
-                                if (chk.checked) new_inp.style.textDecoration='line-through';
+                                if (chk.checked && new_inp.value!='') new_inp.style.textDecoration='line-through';
                                 else new_inp.style.textDecoration='none';
                             }
                             return;
@@ -109,7 +109,7 @@ function add_main (){
 
                 //the same checkbox check detect function as above
                 function chk_detect(){
-                    if (chk.checked) new_inp.style.textDecoration='line-through';
+                    if (chk.checked && new_inp.value!='') new_inp.style.textDecoration='line-through';
                     else new_inp.style.textDecoration='none';
                 }
             }

@@ -50,6 +50,7 @@ nav {
     transition: 0.5s all;
     font-size: 20px;
     font-weight: bold;
+    width: 210px;
 }
 
 .input_search:focus {

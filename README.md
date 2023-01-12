@@ -5,7 +5,7 @@ This was my second project. While doing the site, i was still learning to code w
 
 In this project i tryied to do a "To-Do enhanced List", not only a simple list with items users can add and mark down, but a list with some more personality and more options for user to work on and change some interface if it is desired.
 
-This document will be updated with the characteristics of the program as it gets ready.
+This document will be updated with it capabilities as it gets ready.
 
 by now the program is able to:
 

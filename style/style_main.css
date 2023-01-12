@@ -33,10 +33,6 @@ nav {
     margin: 0 0 0 2vw;
 }
 
-.button-q{
-    margin-left: auto;
-}
-
 .bot:hover {
     background: rgba(128, 128, 128, 0.5);
 }
@@ -56,6 +52,15 @@ nav {
 .input_search:focus {
     background: rgba(128, 128, 128, 0.5);
 
+}
+
+.button-q{
+    margin-left: auto;
+}
+
+#button-q{
+    margin: 0;
+    height: 5px;
 }
 
 main {
@@ -78,4 +83,48 @@ footer {
 
 .item-feet {
     margin: 0.5vw;
+}
+
+.background_blur{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(128, 128, 128, 0.5);
+}
+
+.help_guide{
+    display: none;
+    position: absolute;
+    top: 10vh;
+    right: 25vw;
+    z-index: 1;
+    width: 50vw;
+    height: 80vh;
+    background: white;
+    border: 1px solid black;
+    border-radius: 50px;
+
+}
+
+.help_guide>button{
+    display: block;
+    background: none;
+    border: none;
+    float: right;
+    margin: 4%;
+    font-size: larger;
+    font-weight: bold;
+    color: grey;
+    transition: 0.5s all;
+    cursor: pointer;
+    border-radius: 10px;
+    height: 2vw;
+    width: 2vw;
+}
+
+.help_guide>button:hover{
+    color: black;
+    background: rgba(0, 0, 0, 0.3);
 }

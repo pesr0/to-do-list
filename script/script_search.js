@@ -1,7 +1,7 @@
 const inp_search = document.querySelector('.input_search');
 
 //function responsible to identifie which letter was inserted in inp_search
-function search(event){
+function search(){
 
     //Oriignal NodeList transformed in array
     let list = Array.from(document.querySelectorAll('.mainlist'));

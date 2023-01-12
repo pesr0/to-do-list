@@ -33,8 +33,28 @@ nav {
     margin: 0 0 0 2vw;
 }
 
+.button-q{
+    margin-left: auto;
+}
+
 .bot:hover {
     background: rgba(128, 128, 128, 0.5);
+}
+
+.input_search{
+    font-family: 'Dosis', sans-serif;
+    background: none;
+    border:none;
+    border-radius: 10px;
+    margin: 0 0.5vw;
+    transition: 0.5s all;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.input_search:focus {
+    background: rgba(128, 128, 128, 0.5);
+
 }
 
 main {

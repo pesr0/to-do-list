@@ -10,7 +10,6 @@ This document will be updated with it capabilities as it gets ready.
 by now the program is able to:
 
 |*add new section of itens to be inserted by the user ("+" button)*|
-|*-this section has a title, which can be omitted or deleted (by hitting "backspace")*|
 |*-when an item is filled, by hitting "enter" a new item is inserted*|
 |*-if a item area is empty, it is suposed to be automatically removed by hiting backspace*|
 |*-each item has a checkbox to mark when the respective task has already been done*|

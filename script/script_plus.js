@@ -1,4 +1,4 @@
-const main = document.querySelector('#boxes');
+const main = document.querySelector('#main');
 
 //add + new box of inputs and a new title input
 function add_main (){
@@ -119,4 +119,4 @@ function add_main (){
     }
 
 
-document.querySelector('.button-m').addEventListener('click', add_main);
+document.querySelector('.button_more').addEventListener('click', add_main);

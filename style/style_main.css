@@ -29,7 +29,7 @@ nav {
     border-radius: 10px;
 }
 
-.button-m {
+.button_more {
     margin: 0 0 0 2vw;
 }
 
@@ -54,11 +54,11 @@ nav {
 
 }
 
-.button-q{
+.button_help{
     margin-left: auto;
 }
 
-#button-q{
+#button_help{
     margin: 0;
     height: 5px;
 }
@@ -81,50 +81,6 @@ footer {
     box-sizing: border-box;
 }
 
-.item-feet {
+.item_footer {
     margin: 0.5vw;
-}
-
-.background_blur{
-    display: none;
-    position: absolute;
-    z-index: 1;
-    width: 100vw;
-    height: 100vh;
-    background: rgba(128, 128, 128, 0.5);
-}
-
-.help_guide{
-    display: none;
-    position: absolute;
-    top: 10vh;
-    right: 25vw;
-    z-index: 1;
-    width: 50vw;
-    height: 80vh;
-    background: white;
-    border: 1px solid black;
-    border-radius: 50px;
-
-}
-
-.help_guide>button{
-    display: block;
-    background: none;
-    border: none;
-    float: right;
-    margin: 4%;
-    font-size: larger;
-    font-weight: bold;
-    color: grey;
-    transition: 0.5s all;
-    cursor: pointer;
-    border-radius: 10px;
-    height: 2vw;
-    width: 2vw;
-}
-
-.help_guide>button:hover{
-    color: black;
-    background: rgba(0, 0, 0, 0.3);
 }

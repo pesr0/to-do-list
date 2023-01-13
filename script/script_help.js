@@ -1,5 +1,5 @@
 const background = document.querySelector(".background_blur");
-const help_button = document.querySelector('.button-q');
+const help_button = document.querySelector('.button_help');
 const close_button = document.querySelector('button');
 const help_guide = document.querySelector('.help_guide');
 

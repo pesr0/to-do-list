@@ -11,6 +11,10 @@ function add_main (){
         ol.className= 'mainlist';
         input_box.appendChild(ol);
 
+        const foot = document.createElement('div');
+        foot.className = 'box_foot';
+        input_box.appendChild(foot);
+
         const li = document.createElement('li');
         li.className= 'list_fItem';
         ol.appendChild(li);
@@ -25,6 +29,16 @@ function add_main (){
         inp.placeholder = 'Please insert this section title';
         li.appendChild(inp);
         inp.focus();
+
+        const button_x = document.createElement('button');
+        button_x.className = 'button_delete button_fDelete';
+        button_x.innerHTML = 'X';
+        li.appendChild(button_x);
+
+        const button_x_2 = document.createElement('button');
+        button_x_2.innerHTML = 'X';
+        button_x_2.className='button_delete';
+        foot.appendChild(button_x_2);
 
         //add + new inputs inside te box os inputs
         function add_input (event){
@@ -67,6 +81,11 @@ function add_main (){
                             new_inp.className='input_text';
                             new_li.appendChild(new_inp);
 
+                            const new_button_x = document.createElement('button');
+                            new_button_x.className = 'button_delete';
+                            new_button_x.innerHTML = 'X';
+                            new_li.appendChild(new_button_x);
+
                             chk.addEventListener('change', chk_detect);
                             new_inp.addEventListener('keydown', add_input);
                             
@@ -107,6 +126,11 @@ function add_main (){
                 new_inp.placeholder='Insert a new item here';
                 new_inp.className='input_text';
                 new_li.appendChild(new_inp);
+
+                const new_button_x = document.createElement('button');
+                new_button_x.className = 'button_delete';
+                new_button_x.innerHTML = 'X';
+                new_li.appendChild(new_button_x);
 
                 chk.addEventListener('change', chk_detect);
                 new_inp.focus();

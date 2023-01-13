@@ -3,7 +3,7 @@ const inp_search = document.querySelector('.input_search');
 //function responsible to identifie which letter was inserted in inp_search
 function search(){
 
-    //Oriignal NodeList transformed in array
+    //Orignal NodeList transformed in array (.mainlist = original ol)
     let list = Array.from(document.querySelectorAll('.mainlist'));
 
     list.forEach(function(ol){

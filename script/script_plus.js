@@ -15,6 +15,11 @@ function add_main (){
         li.className= 'list_fItem';
         ol.appendChild(li);
 
+        const chk = document.createElement('input');
+        chk.type = 'checkbox';
+        chk.style.display = 'none';
+        li.appendChild(chk);
+
         const inp = document.createElement('input');
         inp.className = 'input_text input_title';
         inp.placeholder = 'Please insert this section title';
@@ -28,7 +33,7 @@ function add_main (){
             let j = 0;
             for(let i = 0; i < ol.childElementCount; i++){
 
-                if (ol.children[i].children[0].value==='')j++;
+                if (ol.children[i].children[1].value==='')j++;
             }
 
             //when backspace is clicked, remove empty inputs when the last input isn't empty, and add a new bottom empty input
@@ -37,7 +42,7 @@ function add_main (){
                 for (let i=0; i<ol.childElementCount; i++){
 
                     //avaliate is there are some empty input, if the empty input isn't the last one, its removed
-                    if(ol.children[i].children[0].value===''&& ol.children[ol.childElementCount-1].children[0]!=''&&ol.children[i].children[0].className!='input_text input_title'){
+                    if(ol.children[i].children[1].value===''&& ol.children[ol.childElementCount-1].children[1]!=''&&ol.children[i].children[1].className!='input_text input_title'){
 
                         ol.removeChild(ol.children[i]);
     
@@ -52,15 +57,15 @@ function add_main (){
                             new_li.className = 'list_item';
                             ol.appendChild(new_li);
 
-                            const new_inp = document.createElement('input');
-                            new_inp.placeholder='Insert a new item here';
-                            new_inp.className='input_text';
-                            new_li.appendChild(new_inp);
-                            
                             const chk = document.createElement('input');
                             chk.type = 'checkbox';
                             chk.className = 'check';
                             new_li.appendChild(chk);
+
+                            const new_inp = document.createElement('input');
+                            new_inp.placeholder='Insert a new item here';
+                            new_inp.className='input_text';
+                            new_li.appendChild(new_inp);
 
                             chk.addEventListener('change', chk_detect);
                             new_inp.addEventListener('keydown', add_input);
@@ -82,7 +87,7 @@ function add_main (){
                 for(let i = 0; i < ol.childElementCount; i++){
 
                     //Verifies if there is another empty input
-                    if (ol.children[i].children[0].value===''){
+                    if (ol.children[i].children[1].value===''){
 
                         console.log('empty string found'); return;
                     }
@@ -93,15 +98,15 @@ function add_main (){
                 new_li.className= 'list_item';
                 ol.appendChild(new_li);
 
-                const new_inp = document.createElement('input');
-                new_inp.placeholder='Insert a new item here';
-                new_inp.className='input_text';
-                new_li.appendChild(new_inp);
-
                 const chk = document.createElement('input');
                 chk.type = 'checkbox';
                 chk.className = 'check';
                 new_li.appendChild(chk);
+
+                const new_inp = document.createElement('input');
+                new_inp.placeholder='Insert a new item here';
+                new_inp.className='input_text';
+                new_li.appendChild(new_inp);
 
                 chk.addEventListener('change', chk_detect);
                 new_inp.focus();

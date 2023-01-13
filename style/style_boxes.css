@@ -29,7 +29,7 @@
     border-bottom: 1px solid rgba(123, 123, 123, 0.566);
     background: none;
     border-radius: 5px;
-    width: 75%;
+    width: 90%;
     transition: all 0.5s;
     margin: 1%;
 
@@ -40,6 +40,6 @@
 }
 
 .check {
-    margin: 1% 10%;
+    margin: 1% 1%;
     width: 7%;
 }

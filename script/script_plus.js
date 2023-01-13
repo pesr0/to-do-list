@@ -26,18 +26,20 @@ function add_main (){
 
         const inp = document.createElement('input');
         inp.className = 'input_text input_title';
-        inp.placeholder = 'Please insert this section title';
+        inp.placeholder = 'please insert this section title';
         li.appendChild(inp);
         inp.focus();
 
         const button_x = document.createElement('button');
         button_x.className = 'button_delete button_fDelete';
         button_x.innerHTML = 'X';
+        button_x.title = 'remove title';
         li.appendChild(button_x);
 
         const button_x_2 = document.createElement('button');
         button_x_2.innerHTML = 'X';
         button_x_2.className='button_delete';
+        button_x_2.title='remove section';
         foot.appendChild(button_x_2);
 
         //add + new inputs inside te box os inputs
@@ -77,13 +79,14 @@ function add_main (){
                             new_li.appendChild(chk);
 
                             const new_inp = document.createElement('input');
-                            new_inp.placeholder='Insert a new item here';
+                            new_inp.placeholder='insert a new item here';
                             new_inp.className='input_text';
                             new_li.appendChild(new_inp);
 
                             const new_button_x = document.createElement('button');
                             new_button_x.className = 'button_delete';
                             new_button_x.innerHTML = 'X';
+                            new_button_x.title = 'remove item';
                             new_li.appendChild(new_button_x);
 
                             chk.addEventListener('change', chk_detect);
@@ -107,8 +110,7 @@ function add_main (){
 
                     //Verifies if there is another empty input
                     if (ol.children[i].children[1].value===''){
-
-                        console.log('empty string found'); return;
+                        return;
                     }
                 }
 
@@ -123,13 +125,14 @@ function add_main (){
                 new_li.appendChild(chk);
 
                 const new_inp = document.createElement('input');
-                new_inp.placeholder='Insert a new item here';
+                new_inp.placeholder='insert a new item here';
                 new_inp.className='input_text';
                 new_li.appendChild(new_inp);
 
                 const new_button_x = document.createElement('button');
                 new_button_x.className = 'button_delete';
                 new_button_x.innerHTML = 'X';
+                new_button_x.title = 'remove item';
                 new_li.appendChild(new_button_x);
 
                 chk.addEventListener('change', chk_detect);

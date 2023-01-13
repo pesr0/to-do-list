@@ -6,7 +6,6 @@ const label = document.querySelector('.checkbox_edit_label');
 //start edit mode, which consists in inserting some options in the screen
 function edit_mode(){
     let box_foot = Array.from(document.querySelectorAll('.box_foot'));
-    let list = Array.from(document.querySelectorAll('.mainlist'));
     let button_delete = Array.from(document.querySelectorAll('.button_delete'));
 
     //check if edit mode button is clicked (which is a hidden checkbox)
@@ -31,6 +30,7 @@ function edit_mode(){
                 if(button.parentNode.className=='box_foot'){
                     button.parentNode.parentNode.parentNode.removeChild(button.parentNode.parentNode);
                 }
+                
                 else{
                     button.parentNode.parentNode.removeChild(button.parentNode);
                 }

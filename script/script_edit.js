@@ -34,7 +34,6 @@ function edit_mode(){
                 else{
                     button.parentNode.parentNode.removeChild(button.parentNode);
                 }
-                //console.log(event);
             }
         }
 

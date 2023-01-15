@@ -16,11 +16,11 @@
 .help_guide{
     display: none;
     position: absolute;
-    top: 10vh;
+    top: 15vh;
     right: 25vw;
     z-index: 1;
     width: 45vw;
-    height: 70vh;
+    height: 55vh;
     background: white;
     border: 1px solid black;
     border-radius: 50px;

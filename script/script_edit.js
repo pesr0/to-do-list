@@ -53,12 +53,12 @@ function edit_mode(){
         label.innerHTML = 'edit';
         label.id='';
 
-        //remote delete button from every input
+        //remove delete button from every input
         button_delete.forEach(function(button){
             button.style.display = 'none';
         });
 
-        //add delete button to the box (bottom of the box)
+        //add delete button of the box (bottom of the box)
         box_foot.forEach(function(foot){
             foot.style.display='none';
         });

@@ -45,3 +45,8 @@
 .input_text:focus {
     background: rgba(200, 150, 200, 0.7);
 }
+
+#chk_green{
+    background: rgb(173, 244, 173);
+    border: 3px solid limegreen;
+}

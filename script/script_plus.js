@@ -16,7 +16,7 @@ function add_main (){
         input_box.appendChild(foot);
 
         const li = document.createElement('li');
-        li.className= 'list_fItem';
+        li.className= 'list_item list_fItem';
         ol.appendChild(li);
 
         const chk = document.createElement('input');

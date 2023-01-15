@@ -1,0 +1,11 @@
+@media screen and (max-width: 1000px){
+
+    main{
+        justify-content: center;
+    }
+
+    .box{
+        height: 60%;
+        width: 60%;
+    }
+}

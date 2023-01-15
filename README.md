@@ -18,3 +18,4 @@ by now the program is able to:
 |*-implemented search bar which you can type a term, word, or letter and the site you display only the containers which havve te content typed*|
 |*-help guide with some instructions added, just click on the ? mark and it will display*|
 |*-edit mode, which make it possible to delete itens and boxes of inputs*|
+|*-when the task in the box are completed (checked), the box gets green, indicating that all have been done there*|
